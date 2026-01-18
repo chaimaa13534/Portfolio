@@ -27,13 +27,13 @@ const DATA = {
   projects: [
     {
       title: "Ecommerce Website",
-      desc: "Real-time financial data visualization with WebSocket integration and complex filtering.",
+      desc: "An e-commerce website developed with .NET and SQL Server that supports product management, secure transactions, and efficient order processing.",
       tags: [".Net", "SqlServer"],
       link: "#"
     },
     {
       title: "Food Recipe App",
-      desc: "SaaS platform leveraging OpenAI API to help writers generate blog posts 10x faster.",
+      desc: "A mobile food recipe application built with React Native and Node.js that allows users to discover, save, and manage recipes using a PostgreSQL database.",
       tags: ["Node.js", "ReactNative", "PostreSql"],
       link: "#"
     },
@@ -45,13 +45,13 @@ const DATA = {
     },
 {
       title: "Travel App",
-      desc: "SaaS platform leveraging OpenAI API to help writers generate blog posts 10x faster.",
+      desc: "A full-stack travel application built with React, Node.js, and MySQL that enables users to explore destinations, manage bookings, and plan trips efficiently.",
       tags: ["Node.js", "ReactJs", "MySql"],
       link: "#"
     },
     {
       title: "Online Learning Platform",
-      desc: "A lightweight, accessible component library published on NPM for internal team use.",
+      desc: "A Django-based online learning platform that allows users to manage courses, enroll in classes, and track learning progress using a MySQL database.",
       tags: ["Python", "Django", "Mysql"],
       link: "#"
     }
@@ -152,7 +152,7 @@ function App() {
           <div className="space-y-12 border-l border-slate-800 ml-3 md:ml-0">
             {DATA.experience.map((job, idx) => (
               <div key={idx} className="relative pl-8 md:pl-12 group">
-                {/* Timeline Dot */}
+                
                 <div className="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-slate-800 group-hover:bg-cyan-400 transition-colors duration-300" />
                 
                 <h4 className="text-xl font-semibold text-slate-100">{job.role}</h4>
